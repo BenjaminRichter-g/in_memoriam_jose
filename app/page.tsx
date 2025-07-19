@@ -8,7 +8,7 @@ import { MemoryData, TextMemory } from '@/types/memory'
 
 // Import your converted CSV data here
 // Generated from Jose's Album CSV - 2025-07-19 (No Date Version)
-import { sampleMemories, sampleTextMemories } from './memories-data'
+import { sampleMemories, sampleTextMemories } from './cleaned-memories-no-date-final'
 
 export default function Home() {
   const [expandedImageId, setExpandedImageId] = useState<number | null>(null)
