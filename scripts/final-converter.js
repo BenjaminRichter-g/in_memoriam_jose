@@ -191,7 +191,7 @@ const sampleTextMemories: TextMemory[] = ${JSON.stringify(textMemories, null, 2)
 export { sampleMemories, sampleTextMemories }
 `
     
-    const tsFile = csvFile.replace('.csv', '-final.ts')
+    const tsFile = 'memories-data.ts'
     fs.writeFileSync(tsFile, tsContent)
     console.log(`📝 TypeScript code generated: ${tsFile}`)
     
