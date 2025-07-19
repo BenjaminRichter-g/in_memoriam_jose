@@ -1,0 +1,7 @@
+This directory is for storing images for the memorial website.
+
+Required images:
+- jose-main.jpg (main hero image)
+- memory1.jpg through memory6.jpg (memory grid images)
+
+You can replace these with actual photos of Jose and the memories shared by family and friends. 
