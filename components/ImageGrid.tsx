@@ -121,7 +121,6 @@ export default function ImageGrid({ memories, expandedImageId, onImageClick, onR
                            </p>
                            <div className="flex items-center justify-between text-xs md:text-sm text-memorial-200 pt-2 border-t border-white/10">
                              <span>Shared by {memory.contributor}</span>
-                             <span>{formatDate(memory.date)}</span>
                            </div>
                          </motion.div>
                        )}
@@ -129,7 +128,6 @@ export default function ImageGrid({ memories, expandedImageId, onImageClick, onR
                                              {!isExpanded && (
                          <div className="flex items-center justify-between text-xs text-memorial-200">
                            <span className="truncate">{memory.contributor}</span>
-                           <span className="hidden md:block">{formatDate(memory.date)}</span>
                          </div>
                        )}
                     </div>
