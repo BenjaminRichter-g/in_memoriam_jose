@@ -168,7 +168,21 @@ function main() {
     
     // Generate TypeScript code
     const tsContent = `// Generated from CSV - ${new Date().toISOString()}
-import { MemoryData, TextMemory } from '@/types/memory'
+// Type definitions inline to avoid import issues
+interface MemoryData {
+  id: number
+  imageUrl: string
+  title: string
+  description: string
+  contributor: string
+}
+
+interface TextMemory {
+  id: number
+  text: string
+  author: string
+  type: 'quote' | 'story' | 'message' | 'poem'
+}
 
 const sampleMemories: MemoryData[] = ${JSON.stringify(memories, null, 2)}
 
