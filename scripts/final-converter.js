@@ -92,11 +92,14 @@ function transformCSVToMemories(csvData) {
       })
       
       // Also add to text memories for slideshow
+      const validTypes = ['message', 'quote', 'story', 'poem']
+      const type = row.type && validTypes.includes(row.type) ? row.type : 'message'
+      
       textMemories.push({
         id,
         text: row.text,
         author: row.name || 'Anonymous',
-        type: row.type || 'message'
+        type: type
       })
     }
   })
@@ -165,6 +168,8 @@ function main() {
     
     // Generate TypeScript code
     const tsContent = `// Generated from CSV - ${new Date().toISOString()}
+import { MemoryData, TextMemory } from '@/types/memory'
+
 const sampleMemories: MemoryData[] = ${JSON.stringify(memories, null, 2)}
 
 const sampleTextMemories: TextMemory[] = ${JSON.stringify(textMemories, null, 2)}

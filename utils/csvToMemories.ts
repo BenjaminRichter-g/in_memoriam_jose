@@ -4,7 +4,6 @@ interface CSVRow {
   name: string
   image: string
   text: string
-  date?: string
   type?: 'quote' | 'story' | 'message' | 'poem'
 }
 
@@ -22,7 +21,6 @@ export function transformCSVToMemories(csvData: CSVRow[]) {
         imageUrl: row.image.startsWith('/') ? row.image : `/images/${row.image}`,
         title: row.name || `Memory ${id}`,
         description: row.text,
-        date: row.date || new Date().toISOString().split('T')[0],
         contributor: row.name || 'Anonymous'
       })
     }
@@ -33,7 +31,6 @@ export function transformCSVToMemories(csvData: CSVRow[]) {
         imageUrl: row.image.startsWith('/') ? row.image : `/images/${row.image}`,
         title: row.name || `Memory ${id}`,
         description: 'A cherished memory shared by family and friends.',
-        date: row.date || new Date().toISOString().split('T')[0],
         contributor: row.name || 'Anonymous'
       })
     }
@@ -43,7 +40,6 @@ export function transformCSVToMemories(csvData: CSVRow[]) {
         id,
         text: row.text,
         author: row.name || 'Anonymous',
-        date: row.date || new Date().toISOString().split('T')[0],
         type: row.type || 'message'
       })
     }
@@ -54,8 +50,8 @@ export function transformCSVToMemories(csvData: CSVRow[]) {
 
 // Example usage:
 // const csvData = [
-//   { name: "Maria", image: "jose-family.jpg", text: "Beautiful family moment", date: "2023-12-25" },
-//   { name: "Carlos", image: "jose-birthday.jpg", text: "", date: "2023-05-20" },
-//   { name: "Ana", image: "", text: "Jose was the kindest person I ever met", date: "2023-12-15", type: "quote" }
+//   { name: "Maria", image: "jose-family.jpg", text: "Beautiful family moment" },
+//   { name: "Carlos", image: "jose-birthday.jpg", text: "" },
+//   { name: "Ana", image: "", text: "Jose was the kindest person I ever met", type: "quote" }
 // ]
 // const { memories, textMemories } = transformCSVToMemories(csvData) 
