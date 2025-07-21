@@ -24,8 +24,8 @@ export default function HeroSection() {
           >
             <div className="relative w-full h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/jose-main.jpg"
-                alt="Jose - In Loving Memory"
+                src="/images/jose_halo.png"
+                alt="José - In Loving Memory"
                 fill
                 className="object-cover"
                 priority
@@ -49,14 +49,14 @@ export default function HeroSection() {
               <h1 className="text-5xl lg:text-6xl font-serif font-bold text-memorial-900 leading-tight">
                 Jose
               </h1>
-              <h2 className="text-2xl lg:text-3xl font-light text-memorial-700 font-serif">
-                In Loving Memory
+              <h2 className="text-2xl lg:text-3xl font-light text-memorial-700 font-serif flex items-center gap-2">
+                In Loving Memory <span className="text-xl lg:text-2xl font-serif font-light">· 1988-2025</span>
               </h2>
               <div className="w-24 h-1 bg-primary-400 rounded-full"></div>
             </div>
 
-            <div className="space-y-4 text-lg text-memorial-700 leading-relaxed">
-              <p className="font-serif italic">
+            <div className="space-y-4 text-lg text-memorial-700 leading-relaxed font-serif italic">
+              <p>
                 "A life well-lived is a life well-loved. Jose touched the hearts of everyone he met with his warmth, 
                 kindness, and infectious smile."
               </p>
