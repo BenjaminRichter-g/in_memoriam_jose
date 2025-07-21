@@ -112,7 +112,6 @@ function transformCSVToMemories(csvData) {
         imageUrl: imageUrl,
         title: row.name || `Memory ${id}`,
         description: row.text,
-        date: row.date || new Date().toISOString().split('T')[0],
         contributor: row.name || 'Anonymous'
       })
     }
@@ -121,8 +120,7 @@ function transformCSVToMemories(csvData) {
       imageOnlyRows.push({
         id,
         image: row.image,
-        name: row.name,
-        date: row.date
+        name: row.name
       })
     }
     // If only text exists, store for later pairing and slideshow
@@ -131,7 +129,6 @@ function transformCSVToMemories(csvData) {
         id,
         text: row.text,
         name: row.name,
-        date: row.date,
         type: row.type
       })
       
@@ -140,7 +137,6 @@ function transformCSVToMemories(csvData) {
         id,
         text: row.text,
         author: row.name || 'Anonymous',
-        date: row.date || new Date().toISOString().split('T')[0],
         type: row.type || 'message'
       })
     }
@@ -170,7 +166,6 @@ function transformCSVToMemories(csvData) {
       imageUrl: imageUrl,
       title: imageRow.name || randomTextRow.name || `Memory ${memoryId}`,
       description: randomTextRow.text || 'A cherished memory shared by family and friends.',
-      date: imageRow.date || randomTextRow.date || new Date().toISOString().split('T')[0],
       contributor: imageRow.name || randomTextRow.name || 'Anonymous'
     })
   })
