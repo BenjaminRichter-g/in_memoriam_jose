@@ -47,7 +47,7 @@ export default function HeroSection() {
           >
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-serif font-bold text-memorial-900 leading-tight">
-                Jose
+                José
               </h1>
               <h2 className="text-2xl lg:text-3xl font-light text-memorial-700 font-serif flex items-center gap-2">
                 In Loving Memory <span className="text-xl lg:text-2xl font-serif font-light">· 1988-2025</span>
