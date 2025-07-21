@@ -207,10 +207,28 @@ function convertCSVFile(inputPath, outputPath) {
     console.log(`✅ Successfully converted to: ${outputPath}`)
     
     // Generate TypeScript code snippet
-    const tsCode = `// Generated from CSV - ${new Date().toISOString()}
+    const tsTypeDefs = `// Type definitions inline to avoid import issues
+interface MemoryData {
+  id: number
+  imageUrl: string
+  title: string
+  description: string
+  contributor: string
+}
+
+interface TextMemory {
+  id: number
+  text: string
+  author: string
+  type: 'quote' | 'story' | 'message' | 'poem'
+}
+`
+    const tsCode = `${tsTypeDefs}
+// Generated from CSV - ${new Date().toISOString()}
 const sampleMemories: MemoryData[] = ${JSON.stringify(memories, null, 2)}
 
-const sampleTextMemories: TextMemory[] = ${JSON.stringify(textMemories, null, 2)}`
+const sampleTextMemories: TextMemory[] = ${JSON.stringify(textMemories, null, 2)}
+`
     
     const tsOutputPath = outputPath.replace('.json', '.ts')
     fs.writeFileSync(tsOutputPath, tsCode)

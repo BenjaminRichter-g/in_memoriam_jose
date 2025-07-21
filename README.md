@@ -90,6 +90,19 @@ The website uses a custom color palette defined in `tailwind.config.js`. You can
 - **Page Title**: Update the metadata in `app/layout.tsx`
 - **Section Headers**: Modify text in `components/ImageGrid.tsx`
 
+## Updating Data from CSV
+
+To update all website data from a new CSV upload:
+
+1. Place your latest CSV (Jose's Album (Responses) - Form responses 1.csv) in the `public/` directory.
+2. Run the following command:
+
+```bash
+bash scripts/chain-csv-convert.sh
+```
+
+This will clean the CSV, generate the frontend TypeScript data, and update all content files automatically.
+
 ## Deployment
 
 ### Deploy to Vercel
