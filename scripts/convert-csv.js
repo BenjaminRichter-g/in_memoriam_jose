@@ -1,211 +1,81 @@
 const fs = require('fs')
 const path = require('path')
+const { parse } = require('csv-parse/sync')
 
 // CSV Parser function
 function parseCSV(csvContent) {
-  const lines = csvContent.trim().split('\n')
-  const headers = lines[0].split(',').map(h => h.trim().toLowerCase())
-  
-  const rows = []
-  
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i].trim()
-    if (!line) continue
-    
-    // Handle commas within quoted fields
-    const values = []
-    let current = ''
-    let inQuotes = false
-    
-    for (let j = 0; j < line.length; j++) {
-      const char = line[j]
-      
-      if (char === '"') {
-        inQuotes = !inQuotes
-      } else if (char === ',' && !inQuotes) {
-        values.push(current.trim())
-        current = ''
-      } else {
-        current += char
-      }
-    }
-    values.push(current.trim()) // Add the last value
-    
-    // Remove quotes from values
-    const cleanValues = values.map(v => v.replace(/^"|"$/g, ''))
-    
-    const row = {
-      name: cleanValues[headers.indexOf('name')] || '',
-      image: cleanValues[headers.indexOf('image')] || '',
-      text: cleanValues[headers.indexOf('text')] || '',
-      date: cleanValues[headers.indexOf('date')] || undefined,
-      type: cleanValues[headers.indexOf('type')] || undefined
-    }
-    
-    // Clean up the data - handle quoted text properly
-    if (row.text && row.text.includes(',')) {
-      // If text contains commas, it might be split incorrectly
-      // Try to reconstruct the full text
-      const textIndex = headers.indexOf('text')
-      if (textIndex >= 0) {
-        // Find the end of the quoted text
-        let fullText = ''
-        let inQuotes = false
-        let quoteStart = -1
-        
-        for (let i = textIndex; i < values.length; i++) {
-          const value = values[i]
-          if (value.startsWith('"') && !inQuotes) {
-            inQuotes = true
-            quoteStart = i
-            fullText = value.substring(1) // Remove opening quote
-          } else if (inQuotes) {
-            if (value.endsWith('"')) {
-              // End of quoted text
-              fullText += ',' + value.substring(0, value.length - 1)
-              break
-            } else {
-              fullText += ',' + value
-            }
-          }
-        }
-        
-        if (fullText) {
-          row.text = fullText
-        }
-      }
-    }
-    
-    rows.push(row)
+  // Use csv-parse/sync for robust parsing
+  const records = parse(csvContent, {
+    columns: true,
+    skip_empty_lines: true,
+    trim: true
+  })
+  return records.map(row => ({
+    name: row.name || '',
+    image: row.image || '',
+    text: row.text || '',
+    date: row.date || undefined,
+    type: row.type || undefined
+  }))
+}
+
+// Helper to convert Google Drive links to direct image links
+function toDirectGoogleDriveUrl(url) {
+  if (!url) return '';
+  // Match open?id= or file/d/ links
+  let match = url.match(/open\?id=([\w-]+)/);
+  if (match) {
+    return `https://drive.google.com/uc?export=view&id=${match[1]}`;
   }
-  
-  return rows
+  match = url.match(/file\/d\/([\w-]+)/);
+  if (match) {
+    return `https://drive.google.com/uc?export=view&id=${match[1]}`;
+  }
+  // Already in uc?export=view format or not a Drive link
+  return url;
 }
 
 // Transform CSV data to memories
 function transformCSVToMemories(csvData) {
   const memories = []
   const textMemories = []
-  const imageOnlyRows = []
-  const textOnlyRows = []
-
   // Track which names have already had their text used
   const usedTextForName = {}
-
-  // First pass: categorize all rows
-  csvData.forEach((row, index) => {
-    const id = index + 1
-
-    // If both image and text exist, only use text for the first image per person
-    if (row.image && row.text) {
-      // Convert Google Drive URL to direct image URL if needed
-      let imageUrl = row.image
-      if (imageUrl.includes('drive.google.com')) {
-        // Convert Google Drive sharing URL to direct image URL
-        if (imageUrl.includes('/file/d/')) {
-          const fileId = imageUrl.match(/\/file\/d\/([^\/]+)/)?.[1]
-          if (fileId) {
-            imageUrl = `https://drive.google.com/uc?export=view&id=${fileId}`
-          }
-        }
-      }
-      const nameKey = row.name || 'Anonymous'
+  let memoryId = 1
+  let textId = 1
+  csvData.forEach((row) => {
+    const nameKey = row.name || 'Anonymous'
+    // If row has an image
+    if (row.image) {
+      const imageUrl = toDirectGoogleDriveUrl(row.image)
       if (!usedTextForName[nameKey]) {
         memories.push({
-          id,
-          imageUrl: imageUrl,
-          title: row.name || `Memory ${id}`,
-          description: row.text,
+          id: memoryId++,
+          imageUrl,
+          title: row.name || `Memory ${memoryId}`,
+          description: row.text || '',
           contributor: row.name || 'Anonymous'
         })
         usedTextForName[nameKey] = true
       } else {
         memories.push({
-          id,
-          imageUrl: imageUrl,
-          title: row.name || `Memory ${id}`,
+          id: memoryId++,
+          imageUrl,
+          title: row.name || `Memory ${memoryId}`,
           description: '',
           contributor: row.name || 'Anonymous'
         })
       }
-    }
-    // If only image exists, store for later pairing
-    else if (row.image && !row.text) {
-      imageOnlyRows.push({
-        id,
-        image: row.image,
-        name: row.name
-      })
-    }
-    // If only text exists, store for later pairing and slideshow
-    else if (row.text && !row.image) {
-      textOnlyRows.push({
-        id,
-        text: row.text,
-        name: row.name,
-        type: row.type
-      })
-      // Also add to text memories for slideshow
+    } else if (row.text) {
+      // If row is text-only (no image), add to textMemories
       textMemories.push({
-        id,
+        id: textId++,
         text: row.text,
         author: row.name || 'Anonymous',
-        type: row.type || 'message'
+        type: 'message' // Default type, can be improved if needed
       })
     }
   })
-  
-  // Second pass: pair remaining images with random text
-  imageOnlyRows.forEach((imageRow, index) => {
-    const memoryId = memories.length + index + 1
-    
-    // Get a random text entry to pair with this image
-    const randomTextRow = textOnlyRows[Math.floor(Math.random() * textOnlyRows.length)]
-    
-    // Convert Google Drive URL to direct image URL if needed
-    let imageUrl = imageRow.image
-    if (imageUrl.includes('drive.google.com')) {
-      // Convert Google Drive sharing URL to direct image URL
-      if (imageUrl.includes('/file/d/')) {
-        const fileId = imageUrl.match(/\/file\/d\/([^\/]+)/)?.[1]
-        if (fileId) {
-          imageUrl = `https://drive.google.com/uc?export=view&id=${fileId}`
-        }
-      }
-    }
-    
-    memories.push({
-      id: memoryId,
-      imageUrl: imageUrl,
-      title: imageRow.name || randomTextRow.name || `Memory ${memoryId}`,
-      description: randomTextRow.text || 'A cherished memory shared by family and friends.',
-      contributor: imageRow.name || randomTextRow.name || 'Anonymous'
-    })
-  })
-  
-  // Second pass: add image-only rows as memories with just the name and empty description (no pairing)
-  imageOnlyRows.forEach((imageRow, index) => {
-    const memoryId = memories.length + index + 1
-    // Convert Google Drive URL to direct image URL if needed
-    let imageUrl = imageRow.image
-    if (imageUrl.includes('drive.google.com')) {
-      // Convert Google Drive sharing URL to direct image URL
-      if (imageUrl.includes('/file/d/')) {
-        const fileId = imageUrl.match(/\/file\/d\/([^\/]+)/)?.[1]
-        if (fileId) {
-          imageUrl = `https://drive.google.com/uc?export=view&id=${fileId}`
-        }
-      }
-    }
-    memories.push({
-      id: memoryId,
-      imageUrl: imageUrl,
-      title: imageRow.name || `Memory ${memoryId}`,
-      description: '',
-      contributor: imageRow.name || 'Anonymous'
-    })
-  })
-  
   return { memories, textMemories }
 }
 
@@ -254,11 +124,14 @@ interface TextMemory {
   type: 'quote' | 'story' | 'message' | 'poem'
 }
 `
+    // Use JSON.stringify to ensure all strings are escaped properly
     const tsCode = `${tsTypeDefs}
 // Generated from CSV - ${new Date().toISOString()}
 const sampleMemories: MemoryData[] = ${JSON.stringify(memories, null, 2)}
 
 const sampleTextMemories: TextMemory[] = ${JSON.stringify(textMemories, null, 2)}
+
+export { sampleMemories, sampleTextMemories }
 `
     
     const tsOutputPath = outputPath.replace('.json', '.ts')
