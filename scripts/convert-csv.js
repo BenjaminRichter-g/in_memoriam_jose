@@ -183,6 +183,29 @@ function transformCSVToMemories(csvData) {
     })
   })
   
+  // Second pass: add image-only rows as memories with just the name and empty description (no pairing)
+  imageOnlyRows.forEach((imageRow, index) => {
+    const memoryId = memories.length + index + 1
+    // Convert Google Drive URL to direct image URL if needed
+    let imageUrl = imageRow.image
+    if (imageUrl.includes('drive.google.com')) {
+      // Convert Google Drive sharing URL to direct image URL
+      if (imageUrl.includes('/file/d/')) {
+        const fileId = imageUrl.match(/\/file\/d\/([^\/]+)/)?.[1]
+        if (fileId) {
+          imageUrl = `https://drive.google.com/uc?export=view&id=${fileId}`
+        }
+      }
+    }
+    memories.push({
+      id: memoryId,
+      imageUrl: imageUrl,
+      title: imageRow.name || `Memory ${memoryId}`,
+      description: '',
+      contributor: imageRow.name || 'Anonymous'
+    })
+  })
+  
   return { memories, textMemories }
 }
 
