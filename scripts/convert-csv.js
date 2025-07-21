@@ -88,12 +88,15 @@ function transformCSVToMemories(csvData) {
   const textMemories = []
   const imageOnlyRows = []
   const textOnlyRows = []
-  
+
+  // Track which names have already had their text used
+  const usedTextForName = {}
+
   // First pass: categorize all rows
   csvData.forEach((row, index) => {
     const id = index + 1
-    
-    // If both image and text exist, create a memory entry
+
+    // If both image and text exist, only use text for the first image per person
     if (row.image && row.text) {
       // Convert Google Drive URL to direct image URL if needed
       let imageUrl = row.image
@@ -106,14 +109,25 @@ function transformCSVToMemories(csvData) {
           }
         }
       }
-      
-      memories.push({
-        id,
-        imageUrl: imageUrl,
-        title: row.name || `Memory ${id}`,
-        description: row.text,
-        contributor: row.name || 'Anonymous'
-      })
+      const nameKey = row.name || 'Anonymous'
+      if (!usedTextForName[nameKey]) {
+        memories.push({
+          id,
+          imageUrl: imageUrl,
+          title: row.name || `Memory ${id}`,
+          description: row.text,
+          contributor: row.name || 'Anonymous'
+        })
+        usedTextForName[nameKey] = true
+      } else {
+        memories.push({
+          id,
+          imageUrl: imageUrl,
+          title: row.name || `Memory ${id}`,
+          description: '',
+          contributor: row.name || 'Anonymous'
+        })
+      }
     }
     // If only image exists, store for later pairing
     else if (row.image && !row.text) {
@@ -131,7 +145,6 @@ function transformCSVToMemories(csvData) {
         name: row.name,
         type: row.type
       })
-      
       // Also add to text memories for slideshow
       textMemories.push({
         id,

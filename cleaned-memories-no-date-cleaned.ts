@@ -14,7 +14,7 @@ interface TextMemory {
   type: 'quote' | 'story' | 'message' | 'poem'
 }
 
-// Generated from CSV - 2025-07-21T20:42:33.406Z
+// Generated from CSV - 2025-07-21T20:52:46.233Z
 const sampleMemories: MemoryData[] = [
   {
     "id": 1,
@@ -181,7 +181,7 @@ const sampleMemories: MemoryData[] = [
     "id": 93,
     "imageUrl": "https://drive.google.com/open?id=1GQLEo-L2Wn_YBUHpY3xLF_HsbNgkHaSM",
     "title": "Claritta",
-    "description": "Adding additional photos for my original entry 🧡🙏🏽",
+    "description": "",
     "contributor": "Claritta"
   },
   {
@@ -643,7 +643,7 @@ const sampleMemories: MemoryData[] = [
     "id": 293,
     "imageUrl": "you were a friend to us all",
     "title": "José",
-    "description": "and you will be missed more than words can ever express.. Rest easy!,memory",
+    "description": "",
     "contributor": "José"
   },
   {
@@ -1084,7 +1084,7 @@ const sampleMemories: MemoryData[] = [
     "id": 533,
     "imageUrl": "I’m incredibly grateful that I got to know you in 2003",
     "title": "From the bottom of my heart",
-    "description": "we texted recently and there are things left unsaid so I demand to hang out with you in the next life beauty José. Your friendship means the world.,message",
+    "description": "",
     "contributor": "From the bottom of my heart"
   },
   {
@@ -1147,70 +1147,70 @@ const sampleMemories: MemoryData[] = [
     "id": 559,
     "imageUrl": "with humour",
     "title": "You bore it with grace",
-    "description": "with a strength that often went unseen.",
+    "description": "",
     "contributor": "You bore it with grace"
   },
   {
     "id": 563,
     "imageUrl": "your energy",
     "title": "You were magnetic. People were drawn to you",
-    "description": "your insight",
+    "description": "",
     "contributor": "You were magnetic. People were drawn to you"
   },
   {
     "id": 566,
     "imageUrl": "thoughtful",
     "title": "You were pragmatic",
-    "description": "and endlessly generous with your time and your heart.",
+    "description": "",
     "contributor": "You were pragmatic"
   },
   {
     "id": 567,
     "imageUrl": "so deeply",
     "title": "You were loved",
-    "description": "by so many.",
+    "description": "",
     "contributor": "You were loved"
   },
   {
     "id": 570,
     "imageUrl": "about compassion",
     "title": "You taught me about resilience",
-    "description": "about the quiet courage it takes to keep going.",
+    "description": "",
     "contributor": "You taught me about resilience"
   },
   {
     "id": 167,
     "imageUrl": "but your place in our hearts is eternal.",
     "title": "You are missed beyond words",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
     "contributor": "You are missed beyond words"
   },
   {
     "id": 169,
     "imageUrl": ",memory",
     "title": "With love",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "With love"
   },
   {
     "id": 171,
     "imageUrl": "https://drive.google.com/open?id=1sjAD_ULWPKoje1bgdgaeBDXOwSGCxnLF",
     "title": "Nnamdi, Ayana, and Anisia",
-    "description": "My Rufus,",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Nnamdi, Ayana, and Anisia"
   },
   {
     "id": 173,
     "imageUrl": "https://drive.google.com/open?id=1rCYoUOKbcSgpJnJ0cD9lWxaQlMoL-w8r",
     "title": "Nnamdi, Ayana, and Anisia",
-    "description": "My Rufus,",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Nnamdi, Ayana, and Anisia"
   },
   {
     "id": 175,
     "imageUrl": "https://drive.google.com/open?id=1MpdG8krsDPu2mCDcbL6VJu08gsdKUOxD",
     "title": "Nnamdi, Ayana, and Anisia",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
     "contributor": "Nnamdi, Ayana, and Anisia"
   },
   {
@@ -1224,140 +1224,140 @@ const sampleMemories: MemoryData[] = [
     "id": 179,
     "imageUrl": "https://drive.google.com/open?id=1Ld-s7rE77f2qwcplk2BfgvViCiRHkz9w",
     "title": "Nnamdi, Ayana, and Anisia",
-    "description": "Jose,",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Nnamdi, Ayana, and Anisia"
   },
   {
     "id": 181,
     "imageUrl": "https://drive.google.com/open?id=1hyaX2q7PFSnze0VFrd-Sl1iBTwfSFsnE",
     "title": "Nnamdi, Ayana, and Anisia",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Nnamdi, Ayana, and Anisia"
   },
   {
     "id": 183,
     "imageUrl": "it was impossible not to be swept away by your light.",
     "title": "You were beautiful and radiant",
-    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "You were beautiful and radiant"
   },
   {
     "id": 185,
     "imageUrl": "I was out walking my dog and you passed by on your bike.",
     "title": "We went to the same school and lived in the same neighbourhood. Before we had even exchanged a word",
-    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
+    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
     "contributor": "We went to the same school and lived in the same neighbourhood. Before we had even exchanged a word"
   },
   {
     "id": 187,
     "imageUrl": "but I already liked you so much by then.",
     "title": "That was a few months before we ever spoke",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "That was a few months before we ever spoke"
   },
   {
     "id": 189,
     "imageUrl": "and everything felt so light.",
     "title": "A time in our lives when we were small",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "A time in our lives when we were small"
   },
   {
     "id": 191,
     "imageUrl": "and that iconic little white necklace",
     "title": "It brought back your amazing Hugo Boss scent",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "It brought back your amazing Hugo Boss scent"
   },
   {
     "id": 193,
     "imageUrl": "she had an extraordinary son.",
     "title": "For what it’s worth",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "For what it’s worth"
   },
   {
     "id": 195,
     "imageUrl": "even in silence.,memory",
     "title": "I hope she can feel how many people are holding her close right now",
-    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "I hope she can feel how many people are holding her close right now"
   },
   {
     "id": 197,
     "imageUrl": "https://drive.google.com/open?id=19WvkBQSOGln6r8uRgWOjBDb4CK_iNERO",
     "title": "Alessandra",
-    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Alessandra"
   },
   {
     "id": 199,
     "imageUrl": "https://drive.google.com/open?id=1riRwY1s0xcTbaF3JRNdf6NBpXsXOLE7g",
     "title": "Alessandra",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "Alessandra"
   },
   {
     "id": 201,
     "imageUrl": "https://drive.google.com/open?id=10BEqa1IkDvRRdQCQpq-R7dvQsAFxiIT-",
     "title": "Alice Roydep",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
     "contributor": "Alice Roydep"
   },
   {
     "id": 203,
     "imageUrl": "https://drive.google.com/open?id=1w-pmP1EJwGsEn_rZe_NyWDmeoQspjx9r",
     "title": "Alice Roydep",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Alice Roydep"
   },
   {
     "id": 205,
     "imageUrl": "https://drive.google.com/open?id=19RJHRiEYsIL5swTTEaM59KwpEPR9AGEW",
     "title": "Alice Roydep",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Alice Roydep"
   },
   {
     "id": 207,
     "imageUrl": "https://drive.google.com/open?id=1R052MbDz8n3CVAYVneJJwXeOoJKZvBnQ",
     "title": "Alice Roydep",
-    "description": "Here’s to you, Jose",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Alice Roydep"
   },
   {
     "id": 209,
     "imageUrl": "friend xxx,message",
     "title": "Rest easy",
-    "description": "Here’s to you, Jose",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Rest easy"
   },
   {
     "id": 211,
     "imageUrl": "I was so touched that you to came to our wedding in the middle of nowhere in the desert.",
     "title": "Even leaving far away these last years",
-    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
+    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
     "contributor": "Even leaving far away these last years"
   },
   {
     "id": 213,
     "imageUrl": "https://drive.google.com/open?id=1wSNBb6T1Tx4wo3rA2NeuxeGtqg0RBmGt",
     "title": "Aurore",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "José,",
     "contributor": "Aurore"
   },
   {
     "id": 215,
     "imageUrl": "https://drive.google.com/open?id=1GwVkHWQElCbo2PAl_7rlNvpv9ii1Ftdc",
     "title": "Aurore",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Aurore"
   },
   {
     "id": 217,
     "imageUrl": "https://drive.google.com/open?id=1QLkEIkEyzeO_cLUZ2M5_ug3BX55z9e9K",
     "title": "Aurore",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Aurore"
   },
   {
@@ -1371,357 +1371,357 @@ const sampleMemories: MemoryData[] = [
     "id": 221,
     "imageUrl": "https://drive.google.com/open?id=1nE4_glCDUyGlsFjFkoGsJtk_ntTkoUgl",
     "title": "Carlos Ortiz",
-    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 223,
     "imageUrl": "https://drive.google.com/open?id=1ES5QPVea-xWPb9SqHjPQ4L7y51uD8bli",
     "title": "Carlos Ortiz",
-    "description": "You're my mirror. Love you bro x",
+    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 225,
     "imageUrl": "https://drive.google.com/open?id=18hICoaSwxVHZ_C3XZirz53vLeyFjNC_v",
     "title": "Carlos Ortiz",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 227,
     "imageUrl": "https://drive.google.com/open?id=17lRV4W3xGplbtduS7LTzwjUlJpGjPkAS",
     "title": "Carlos Ortiz",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 229,
     "imageUrl": "https://drive.google.com/open?id=1oH74LWwjDF6bI-jx76Gv1o1d-W-2_wiS",
     "title": "Carlos Ortiz",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 231,
     "imageUrl": "https://drive.google.com/open?id=18aCjrW6Y-WgYqmwBOqAGcRLaFXiImePA",
     "title": "Carlos Ortiz",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 233,
     "imageUrl": "https://drive.google.com/open?id=104h_lzpZIblhXm7sEGCVXPiahELuaI3H",
     "title": "Carlos Ortiz",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "Here’s to you, Jose",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 235,
     "imageUrl": "https://drive.google.com/open?id=1hTbm7Bs85BIos1mcVFxKUqJk70bFtYYr",
     "title": "Carlos Ortiz",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 237,
     "imageUrl": "https://drive.google.com/open?id=1d9tpM7fiAwLHmY-kVnLKHq6FZZ6mC6lK",
     "title": "Carlos Ortiz",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 239,
     "imageUrl": "https://drive.google.com/open?id=19h3Ef6gVNRXu3DaVc3EYZ1YpzYu0KDPi",
     "title": "Carlos Ortiz",
-    "description": "Here’s to you, Jose",
+    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
     "contributor": "Carlos Ortiz"
   },
   {
     "id": 241,
     "imageUrl": "https://drive.google.com/open?id=13lgk7TzHgLNnGNr0o7_JAcyJpNj1dy91",
     "title": "Carol",
-    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
+    "description": "Few people you meet have a charm that brings people together in the way José did.",
     "contributor": "Carol"
   },
   {
     "id": 243,
     "imageUrl": "https://drive.google.com/open?id=1QrAPvo8w8hsXn0mxtUlsmEsYJdXV3TtH",
     "title": "Carol",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Carol"
   },
   {
     "id": 245,
     "imageUrl": "https://drive.google.com/open?id=15r2lbtb7APPGNQ-gsM-kg59De1zvyHmv",
     "title": "Carol",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Carol"
   },
   {
     "id": 247,
     "imageUrl": "https://drive.google.com/open?id=1RvN5BNxQZ6Pa35gZ0YommDUC1IDN8PSq",
     "title": "Carol",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "Carol"
   },
   {
     "id": 249,
     "imageUrl": "https://drive.google.com/open?id=1JPOICp6QIS3G_YUfNCpbkd5s_pUt9a41",
     "title": "Carol",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Carol"
   },
   {
     "id": 251,
     "imageUrl": "https://drive.google.com/open?id=1129GiVzNCiQou1x6fKpsYPcR9BOEttXK",
     "title": "Carol",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "Carol"
   },
   {
     "id": 253,
     "imageUrl": "https://drive.google.com/open?id=1kC5RR2POU4huo8yX3-tuhyISNDocbXRA",
     "title": "Carol",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
     "contributor": "Carol"
   },
   {
     "id": 255,
     "imageUrl": "https://drive.google.com/open?id=112rU96k-u5KZYPo8Sqh33AptDxRz_trX",
     "title": "Charlotte/Lottie",
-    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Charlotte/Lottie"
   },
   {
     "id": 257,
     "imageUrl": "undoubtedly one of the brightest souls I've ever met. He had this aura of someone who was set to do things for others from an early age. He never took himself too seriously and cared deeply.",
     "title": "José was bigger than life",
-    "description": "Here’s to you, Jose",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "José was bigger than life"
   },
   {
     "id": 259,
     "imageUrl": "I pray that you have found peace at last. My thoughts go to your family.",
     "title": "As I try to wrap my mind about what led you to this final act",
-    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
+    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
     "contributor": "As I try to wrap my mind about what led you to this final act"
   },
   {
     "id": 261,
     "imageUrl": "Chiara,message",
     "title": "Tua moglie",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Tua moglie"
   },
   {
     "id": 263,
     "imageUrl": "https://drive.google.com/open?id=1kMAJXN8v6S7ZkOD5fdO9fw9ydDTPTAB0",
     "title": "Claritta",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Claritta"
   },
   {
     "id": 265,
     "imageUrl": "https://drive.google.com/open?id=18OfKbS5mpiZGv1V5nl-69avx0mPbWCu5",
     "title": "Claritta",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
     "contributor": "Claritta"
   },
   {
     "id": 267,
     "imageUrl": "https://drive.google.com/open?id=12QmYN6kEQ37GN3SAYZ0AB-24XAdjjU6S",
     "title": "Claritta",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Claritta"
   },
   {
     "id": 269,
     "imageUrl": "https://drive.google.com/open?id=1KTMYRFNTdl9UL9CM5_7zF9SuyfVzLxwp",
     "title": "Claritta",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "My Rufus,",
     "contributor": "Claritta"
   },
   {
     "id": 271,
     "imageUrl": "https://drive.google.com/open?id=1BAm0UrGV3LVjia0HP8K79iZ6zjWkoi9A",
     "title": "Claritta",
-    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Claritta"
   },
   {
     "id": 273,
     "imageUrl": "https://drive.google.com/open?id=1NXpbDKftocUww0i2Z0YoccHq8oU653OM",
     "title": "Claritta",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Claritta"
   },
   {
     "id": 275,
     "imageUrl": "https://drive.google.com/open?id=1jGs_8Ko4CRZSoN0NxJnlGB8FhNyeXROP",
     "title": "Claritta",
-    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Claritta"
   },
   {
     "id": 277,
     "imageUrl": "https://drive.google.com/open?id=15qK1-65YPIR0gxgJUTw9PkegLB0Omsx5",
     "title": "Claritta",
-    "description": "My Rufus,",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Claritta"
   },
   {
     "id": 279,
     "imageUrl": "en la cantina 🥰",
     "title": "Cuantos abrazos nos hicimos al salir del cole",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Cuantos abrazos nos hicimos al salir del cole"
   },
   {
     "id": 281,
     "imageUrl": "porque todo lo que tocabas brillaba!",
     "title": "Era una felicidad profunda de estar a tu lado",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Era una felicidad profunda de estar a tu lado"
   },
   {
     "id": 283,
     "imageUrl": "https://drive.google.com/open?id=1UJIhwu3yB6_KHL7EGMxg-wrnUsYSw3o9",
     "title": "Davide",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Davide"
   },
   {
     "id": 285,
     "imageUrl": "https://drive.google.com/open?id=1SN_vG0MAgxvTFEHQV0Y7cMgF93S2dMGZ",
     "title": "Davide",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "Here’s to you, Jose",
     "contributor": "Davide"
   },
   {
     "id": 287,
     "imageUrl": "https://drive.google.com/open?id=15LO40mY-T8zIxOoRGJ3y0iiFYEF5YEVM",
     "title": "Davide",
-    "description": "Here’s to you, Jose",
+    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
     "contributor": "Davide"
   },
   {
     "id": 289,
     "imageUrl": "https://drive.google.com/open?id=1Sw27SC_ujb2RbIPBC5veJV0dHedD71gQ",
     "title": "Davide",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "José,",
     "contributor": "Davide"
   },
   {
     "id": 291,
     "imageUrl": "https://drive.google.com/open?id=1WpsHsLPwTsesf6QaLAmQfl4uwI63v8HQ",
     "title": "Jessie De Luca",
-    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "Jessie De Luca"
   },
   {
     "id": 293,
     "imageUrl": "https://drive.google.com/open?id=1mcL68njATyMxGKmsfSs3V6SXrrliSCSx",
     "title": "Jessie De Luca",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Jessie De Luca"
   },
   {
     "id": 295,
     "imageUrl": "https://drive.google.com/open?id=1ZqyhCGrhuxPr9l2SU8_j0lSq85j_q_E4",
     "title": "Jessie De Luca",
-    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Jessie De Luca"
   },
   {
     "id": 297,
     "imageUrl": "https://drive.google.com/open?id=1vmdiYWwiHkwHeFoLS0oOQoaM3gI8tBLh",
     "title": "Jessie De Luca",
-    "description": "Dearest José,",
+    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
     "contributor": "Jessie De Luca"
   },
   {
     "id": 299,
     "imageUrl": "https://drive.google.com/open?id=13_yUbqmbzOnYy40PnAYy956y3jczWWsq",
     "title": "Faye",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Faye"
   },
   {
     "id": 301,
     "imageUrl": "https://drive.google.com/open?id=1PdAx47zmbtionh5JU55IRLcHvQMuzeQj",
     "title": "Faye",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "Faye"
   },
   {
     "id": 303,
     "imageUrl": "https://drive.google.com/open?id=16x5raKFzqOuptcyyXOuFnmnajwDfBsIq",
     "title": "Faye",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
     "contributor": "Faye"
   },
   {
     "id": 305,
     "imageUrl": "https://drive.google.com/open?id=1VifIiJm8dYWBT-ygAj7sh24t_0mJz08F",
     "title": "Faye",
-    "description": "Here’s to you, Jose",
+    "description": "Dear Jose,",
     "contributor": "Faye"
   },
   {
     "id": 307,
     "imageUrl": "https://drive.google.com/open?id=1TPK8iM9xNZB73XN1uOJjJznNm6ilsovN",
     "title": "Faye",
-    "description": "Jose,",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Faye"
   },
   {
     "id": 309,
     "imageUrl": "and propped himself up at the bar with a pint to match his sweatshirt. Blending right in with the locals. Not. He was born to stand out. We laughed and laughed - it was like no time had passed. I’m so grateful to have had that last memory with him.",
     "title": "When he reached out to me just before Christmas to say he was in Ireland I didn’t hesitate to meet up with him in Dublin. He bounded in the door wearing a Guinness sweatshirt for the occasion",
-    "description": "My Rufus,",
+    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
     "contributor": "When he reached out to me just before Christmas to say he was in Ireland I didn’t hesitate to meet up with him in Dublin. He bounded in the door wearing a Guinness sweatshirt for the occasion"
   },
   {
     "id": 311,
     "imageUrl": "https://drive.google.com/open?id=1bFHhiT5acYjnDFhm6P2k_uPZ-cEqYUg4",
     "title": "Eavan Fallon, European School 1996-2000 & Dublin, Ireland",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Eavan Fallon, European School 1996-2000 & Dublin, Ireland"
   },
   {
     "id": 313,
     "imageUrl": "https://drive.google.com/open?id=1jAhPkjUrnj0v0AlCvh5ziWrh9b3iBNOH",
     "title": "Esther",
-    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Esther"
   },
   {
     "id": 315,
     "imageUrl": "https://drive.google.com/open?id=1MZgQTRrH5CG1LsbVr1k_D9WDg38UIpOg",
     "title": "Esther",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Esther"
   },
   {
     "id": 317,
     "imageUrl": "https://drive.google.com/open?id=1Y2BGGMANId66NVt8B_ve2UU_CfBBACAr",
     "title": "Esther",
-    "description": "Jose,",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Esther"
   },
   {
     "id": 319,
     "imageUrl": "https://drive.google.com/open?id=1FdHUymvo8jv50eDQNIB19M-vDB-6UeLV",
     "title": "Esther",
-    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Esther"
   },
   {
     "id": 321,
     "imageUrl": "https://drive.google.com/open?id=1U8ZxscUgiXIs0iZiyCjzxRsLlYxyJBkt",
     "title": "Esther",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Esther"
   },
   {
@@ -1742,714 +1742,714 @@ const sampleMemories: MemoryData[] = [
     "id": 327,
     "imageUrl": "https://drive.google.com/open?id=1qaNlDG_w3Dzt4QBT7lD5x3rkJKyNLZiH",
     "title": "Esther",
-    "description": "My Rufus,",
+    "description": "Few people you meet have a charm that brings people together in the way José did.",
     "contributor": "Esther"
   },
   {
     "id": 329,
     "imageUrl": "https://drive.google.com/open?id=1F4MkZjNyssuw9en-5WEHQc5Z5tBFbSoL",
     "title": "Esther",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Few people you meet have a charm that brings people together in the way José did.",
     "contributor": "Esther"
   },
   {
     "id": 331,
     "imageUrl": "https://drive.google.com/open?id=1vfx-gTjx16JhnF1rG0RRJ6doZDYJlMQ0",
     "title": "Farah",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Farah"
   },
   {
     "id": 333,
     "imageUrl": "ahead of his time in so many ways.",
     "title": "A brave brave man. A sensitive role model",
-    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "A brave brave man. A sensitive role model"
   },
   {
     "id": 335,
     "imageUrl": "forever",
     "title": "All my love",
-    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "All my love"
   },
   {
     "id": 337,
     "imageUrl": "https://drive.google.com/open?id=1toKoeUhtmlDZwnNxu-My5iwSnLvkrS_X",
     "title": "Paula FitzGerald",
-    "description": "José,",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Paula FitzGerald"
   },
   {
     "id": 339,
     "imageUrl": "https://drive.google.com/open?id=11eJlvkW9jpxuTe0MU03isLEUarMKyt3w",
     "title": "Paula FitzGerald",
-    "description": "My Rufus,",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Paula FitzGerald"
   },
   {
     "id": 341,
     "imageUrl": "https://drive.google.com/open?id=1k110efAbq5vLZvjKdcDI_fAMD-NvBeCf",
     "title": "Paula FitzGerald",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "Paula FitzGerald"
   },
   {
     "id": 343,
     "imageUrl": "seguiré buscando más shooting stars - sé que serán tu manera de llamarme “bichacha” a la distancia. Gracias por haber iluminado este mundo.,memory",
     "title": "Te quiero muchísimo. Desde acá",
-    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Te quiero muchísimo. Desde acá"
   },
   {
     "id": 345,
     "imageUrl": "https://drive.google.com/open?id=1v5nTDKOlDy6R1VAtOGvNqrCm5NNCxscc",
     "title": "Gabriela Ferreira",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Gabriela Ferreira"
   },
   {
     "id": 347,
     "imageUrl": "https://drive.google.com/open?id=1f8cHE3pfvyePI9WCP_ehBGhJie3KvHqI",
     "title": "Gabriela Ferreira",
-    "description": "Jose,",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Gabriela Ferreira"
   },
   {
     "id": 349,
     "imageUrl": "https://drive.google.com/open?id=152A1HQFviuENLnBYQpBab6GlnLM79kaw",
     "title": "Gabrielle Douieb",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Gabrielle Douieb"
   },
   {
     "id": 351,
     "imageUrl": "https://drive.google.com/open?id=1bPYPpRwSN2y5kagMuKx9G7s7RGDyhf-m",
     "title": "Gabrielle Douieb",
-    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "Gabrielle Douieb"
   },
   {
     "id": 353,
     "imageUrl": "https://drive.google.com/open?id=1G4NDTCCw5M3J4sLVC7hcXprATW2EUENl",
     "title": "Gabrielle Douieb",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "José,",
     "contributor": "Gabrielle Douieb"
   },
   {
     "id": 355,
     "imageUrl": "https://drive.google.com/open?id=1JbEMYwt7XHVW32sBgSGPnjxqh3GoL79R",
     "title": "Gabrielle Douieb",
-    "description": "My Rufus,",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Gabrielle Douieb"
   },
   {
     "id": 357,
     "imageUrl": "https://drive.google.com/open?id=1MSja8kYrgooqnyCykTpPN04SRR6q538Y",
     "title": "Hans B",
-    "description": "Dearest José,",
+    "description": "Jose,",
     "contributor": "Hans B"
   },
   {
     "id": 359,
     "imageUrl": "https://drive.google.com/open?id=1C_osa86U52aSgJT7gUgNr72ucrpql12B",
     "title": "Hans B",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Hans B"
   },
   {
     "id": 361,
     "imageUrl": "https://drive.google.com/open?id=10CrtCpHIvyJ7RvgrAkmqF9Z4JtJIs8my",
     "title": "Hara (Harouzi)",
-    "description": "José,",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Hara (Harouzi)"
   },
   {
     "id": 363,
     "imageUrl": "https://drive.google.com/open?id=1ZXBjoL9H5s6teQCE3YRRu0Oj2hqqejiD",
     "title": "Hara (Harouzi)",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Hara (Harouzi)"
   },
   {
     "id": 365,
     "imageUrl": "https://drive.google.com/open?id=1Z1Xluc9Mcjs1E5Ky5V33FfqhgkB5U7XF",
     "title": "Hara (Harouzi)",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Hara (Harouzi)"
   },
   {
     "id": 367,
     "imageUrl": "https://drive.google.com/open?id=1e5czduMXgt6szfYBl_2qa9Z1a5f6khs9",
     "title": "Hara (Harouzi)",
-    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Hara (Harouzi)"
   },
   {
     "id": 369,
     "imageUrl": "and he had a demeanor that could make anyone feel loved and welcomed. He had a curiosity and fervor for life that was admirable.",
     "title": "He was the smiley face in Arthur Vick that we would see everytime we would come back from class. He brightened up every room",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "He was the smiley face in Arthur Vick that we would see everytime we would come back from class. He brightened up every room"
   },
   {
     "id": 371,
     "imageUrl": "https://drive.google.com/open?id=1YTspi7g_15zAxAVcsdna7dLXUAhdnnrK",
     "title": "Heena",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "José,",
     "contributor": "Heena"
   },
   {
     "id": 373,
     "imageUrl": "https://drive.google.com/open?id=18Rm3SskSDpbHNnviwJ6TcsrDlSmQRnYn",
     "title": "Heena",
-    "description": "Dear Jose,",
+    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
     "contributor": "Heena"
   },
   {
     "id": 375,
     "imageUrl": "https://drive.google.com/open?id=1qoq_vI_v9_kJczdiGPv5o4aQzK2jEYfB",
     "title": "Heena",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
     "contributor": "Heena"
   },
   {
     "id": 377,
     "imageUrl": "https://drive.google.com/open?id=1nMuvWTxI_W0hD9QKlbKwqM-R67S31yeJ",
     "title": "Heena",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
     "contributor": "Heena"
   },
   {
     "id": 379,
     "imageUrl": "https://drive.google.com/open?id=1xUCF4epK-J6LURlFdPE00o3AeizMc_OX",
     "title": "Heena",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
     "contributor": "Heena"
   },
   {
     "id": 381,
     "imageUrl": "https://drive.google.com/open?id=1CA8IXIVI7GzfcTBynN3jtSekmE0v-eze",
     "title": "Heena",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
     "contributor": "Heena"
   },
   {
     "id": 383,
     "imageUrl": "https://drive.google.com/open?id=1WxTWjy_ufJB4Z8I-qUyK37Bz_khlA5lE",
     "title": "Henning",
-    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Henning"
   },
   {
     "id": 385,
     "imageUrl": "https://drive.google.com/open?id=1G9jW7bIaVoW_SAvX1MeYRr3H4UrsZm4M",
     "title": "Henning",
-    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
+    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
     "contributor": "Henning"
   },
   {
     "id": 387,
     "imageUrl": "https://drive.google.com/open?id=1TyyzcB4SfYsn55WIxYouvHKZXphCHRz9",
     "title": "Henning",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Henning"
   },
   {
     "id": 389,
     "imageUrl": "https://drive.google.com/open?id=1C0oYu3nLzxheDSx9vses2Tm4P9StFpkc",
     "title": "Henning",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "Here’s to you, Jose",
     "contributor": "Henning"
   },
   {
     "id": 391,
     "imageUrl": "https://drive.google.com/open?id=1ojGKjvuympQegdtwXcTC5r-6bYO_BnKe",
     "title": "Isabella (aka Gracie)",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "Isabella (aka Gracie)"
   },
   {
     "id": 393,
     "imageUrl": "https://drive.google.com/open?id=10BqOfATIjeBdgAYpXLAvMAS3EEu-tNDe",
     "title": "Isabella (aka Gracie)",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Isabella (aka Gracie)"
   },
   {
     "id": 395,
     "imageUrl": "https://drive.google.com/open?id=11NNEDJ3JLd3Z7jHIfkfyK4CUpF0fZXd3",
     "title": "Isabella (aka Gracie)",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Isabella (aka Gracie)"
   },
   {
     "id": 397,
     "imageUrl": "https://drive.google.com/open?id=1MM7s7ZDuGpUbjOmNa9_aPgKCIHycdHuu",
     "title": "Isabella (aka Gracie)",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Isabella (aka Gracie)"
   },
   {
     "id": 399,
     "imageUrl": "https://drive.google.com/open?id=1REQaWDwM2NSGPMGzuKd7lHQtg-RZxpTw",
     "title": "Ishita Mehta",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "Ishita Mehta"
   },
   {
     "id": 401,
     "imageUrl": "https://drive.google.com/open?id=1kcFlcIEBJqCowlK1-l81U-DmJrrdBlA1",
     "title": "Ishita Mehta",
-    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Ishita Mehta"
   },
   {
     "id": 403,
     "imageUrl": "https://drive.google.com/open?id=1UNyWzHGXzXAaTHaTu4CmRWp9n1BSMNGY",
     "title": "Ishita Mehta",
-    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Ishita Mehta"
   },
   {
     "id": 405,
     "imageUrl": "mon Cooks...",
     "title": "My homeboy",
-    "description": "Dearest José,",
+    "description": "José,",
     "contributor": "My homeboy"
   },
   {
     "id": 407,
     "imageUrl": "aujourd'hui je pleure la disparition d'un frère.",
     "title": "Quelle tristesse que de te savoir parti. Bien que le temps et la distance ait fini par nous éloigner",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
     "contributor": "Quelle tristesse que de te savoir parti. Bien que le temps et la distance ait fini par nous éloigner"
   },
   {
     "id": 409,
     "imageUrl": "c'est aussi une page de notre propre vie qui se tourne. Tu étais un gars en or et tu peux compter sur  nous pour continuer à faire vivre ta mémoire.",
     "title": "J'ai les yeux mouillés te revoyant tout jeune devant moi car avec ta disparition",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "Dear Jose,",
     "contributor": "J'ai les yeux mouillés te revoyant tout jeune devant moi car avec ta disparition"
   },
   {
     "id": 411,
     "imageUrl": "pour Elda et José Sr... Je m'en veux infiniment de n'avoir pas été plus présent dans ces dernières années plus difficiles pour José. Personne ne peut imaginer la douleur que vous ressentez en ce moment et j'espère seulement que de voir et lire tant d'amour pour votre fils vous remette un peu de baume au coeur.",
     "title": "Un mot aussi pour ta chère famille",
-    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
+    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
     "contributor": "Un mot aussi pour ta chère famille"
   },
   {
     "id": 413,
     "imageUrl": "José.",
     "title": "Au revoir",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Au revoir"
   },
   {
     "id": 415,
     "imageUrl": "https://drive.google.com/open?id=1_Hy5-MEgttp4QYb4ureiGlUrjQe2DVid",
     "title": "Issam",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
     "contributor": "Issam"
   },
   {
     "id": 417,
     "imageUrl": "https://drive.google.com/open?id=1ffQAhaUCk56JHCUVvVW4HkeCmOgILoa_",
     "title": "Issam",
-    "description": "Dear Jose,",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Issam"
   },
   {
     "id": 419,
     "imageUrl": "https://drive.google.com/open?id=14vAiDQxsoCUVTPzt7lp_1u7GT2lUU0bg",
     "title": "Issam",
-    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
+    "description": "Dear Jose,",
     "contributor": "Issam"
   },
   {
     "id": 421,
     "imageUrl": "https://drive.google.com/open?id=12Gy_Qm3L5ElawQqEhy-yP52xEt5ItkOo",
     "title": "Issam",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Issam"
   },
   {
     "id": 423,
     "imageUrl": "https://drive.google.com/open?id=15LoQz1aQ8rkrqjJqZNUkFz4Spplk7gou",
     "title": "Issam",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Issam"
   },
   {
     "id": 425,
     "imageUrl": "https://drive.google.com/open?id=1skvuWwaK3SfjBZr30uHLtV8EGqngq1ez",
     "title": "Jess Fitch",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Jess Fitch"
   },
   {
     "id": 427,
     "imageUrl": "https://drive.google.com/open?id=1yIdjiNXdEkUj5pF2_1QoxdHXcvNuQ5w3",
     "title": "Jess Fitch",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "Here’s to you, Jose",
     "contributor": "Jess Fitch"
   },
   {
     "id": 429,
     "imageUrl": "https://drive.google.com/open?id=1WC2oe_ZhOigyLQNKO5qG78N5ATxorZh0",
     "title": "Jess Fitch",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Jess Fitch"
   },
   {
     "id": 431,
     "imageUrl": "https://drive.google.com/open?id=1_-uazHZpvOGUdFDvuZ8gWjn1xtabiPH2",
     "title": "Jess Fitch",
-    "description": "Here’s to you, Jose",
+    "description": "My Rufus,",
     "contributor": "Jess Fitch"
   },
   {
     "id": 433,
     "imageUrl": "https://drive.google.com/open?id=1iq1HLZGir-VF-vyqwYBwtjmbu1RSA_qQ",
     "title": "Jess Fitch",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "Jess Fitch"
   },
   {
     "id": 435,
     "imageUrl": "https://drive.google.com/open?id=1ho-wC7YZvWKioX43aDL9J7M6yYO4b5da",
     "title": "Jess Fitch",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Jess Fitch"
   },
   {
     "id": 437,
     "imageUrl": "https://drive.google.com/open?id=1_SZ-GBcNk5RSng5igMI6V-WdwXDboOO2",
     "title": "Jackson Lemon",
-    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "Jackson Lemon"
   },
   {
     "id": 439,
     "imageUrl": "https://drive.google.com/open?id=1ZiIi7_MVkrDF7He44nJmjI_JbDmqBihF",
     "title": "Jackson Lemon",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Jackson Lemon"
   },
   {
     "id": 441,
     "imageUrl": "https://drive.google.com/open?id=1vuht16jCjE6PRjhz6TS12qDCpr11gr--",
     "title": "Jackson Lemon",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
     "contributor": "Jackson Lemon"
   },
   {
     "id": 443,
     "imageUrl": "https://drive.google.com/open?id=1bqHpIJ8hAElxUTRkMd04QKdSYjcx9gx3",
     "title": "Jackson Lemon",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
     "contributor": "Jackson Lemon"
   },
   {
     "id": 445,
     "imageUrl": "https://drive.google.com/open?id=1pyrMp7a9kHnV88_M5_Lg-rjoRdoOAPpn",
     "title": "Jackson Lemon",
-    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "Jackson Lemon"
   },
   {
     "id": 447,
     "imageUrl": "Joana,message",
     "title": "EEBI EN Classmate",
-    "description": "Jose,",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "EEBI EN Classmate"
   },
   {
     "id": 449,
     "imageUrl": "inviting me to sit next to you. You took me under your wing. I immediately felt better.",
     "title": "But you were the first one to be kind to me",
-    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "But you were the first one to be kind to me"
   },
   {
     "id": 451,
     "imageUrl": "I hope you have found your peace.",
     "title": "Shine bright José",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Shine bright José"
   },
   {
     "id": 453,
     "imageUrl": "KP 💔xxx,memory",
     "title": "Love you so much",
-    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
+    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
     "contributor": "Love you so much"
   },
   {
     "id": 455,
     "imageUrl": "https://drive.google.com/open?id=1PfBBF9gQynLvlNxLuFI6Cav84oRPwaIl",
     "title": "Katieprith Mattu",
-    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
+    "description": "Dearest José,",
     "contributor": "Katieprith Mattu"
   },
   {
     "id": 457,
     "imageUrl": "https://drive.google.com/open?id=18A4X1rGYvBbepkPJB2sd_Kvvg9PLFhsI",
     "title": "Katieprith Mattu",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Katieprith Mattu"
   },
   {
     "id": 459,
     "imageUrl": "we promised each other we’d finally catch up this summer…",
     "title": "Just a few weeks ago",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
     "contributor": "Just a few weeks ago"
   },
   {
     "id": 461,
     "imageUrl": "that moment will never come.",
     "title": "and now",
-    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "and now"
   },
   {
     "id": 463,
     "imageUrl": "your presence always stayed in my heart.",
     "title": "And even though time and life created some distance",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
     "contributor": "And even though time and life created some distance"
   },
   {
     "id": 465,
     "imageUrl": "while still giving your all to everyone around you.",
     "title": "What breaks me is thinking about the pain you must have been carrying behind that smile. That invisible weight you bore",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "What breaks me is thinking about the pain you must have been carrying behind that smile. That invisible weight you bore"
   },
   {
     "id": 467,
     "imageUrl": "Rufus.",
     "title": "It’s unbearable to imagine. You had so much courage",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "It’s unbearable to imagine. You had so much courage"
   },
   {
     "id": 469,
     "imageUrl": "Rufus.",
     "title": "I love you",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
     "contributor": "I love you"
   },
   {
     "id": 471,
     "imageUrl": "part of the friend group.",
     "title": "You’re part of the memories we shared",
-    "description": "Dear Jose,",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "You’re part of the memories we shared"
   },
   {
     "id": 473,
     "imageUrl": "https://drive.google.com/open?id=13teI5FUOCkiqTbHSPaN5Bffy6M9NqnZZ",
     "title": "Lea, Joao, Santi & Ida",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
     "contributor": "Lea, Joao, Santi & Ida"
   },
   {
     "id": 475,
     "imageUrl": "https://drive.google.com/open?id=1VRvR2Ch1h945Xf3cC9Dt3VhrwiRdndrW",
     "title": "Lena",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Lena"
   },
   {
     "id": 477,
     "imageUrl": "https://drive.google.com/open?id=1w5vWv1eCG_iBpNoCowVQYMu58Y0skdrP",
     "title": "Lena",
-    "description": "José,",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Lena"
   },
   {
     "id": 479,
     "imageUrl": "https://drive.google.com/open?id=13VH2qoSq_dL-7SG0BEeVc-X_aoJAfR7y",
     "title": "Lena",
-    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Lena"
   },
   {
     "id": 481,
     "imageUrl": "https://drive.google.com/open?id=1fz51R84KkU1erIrAtZbGcoEOsnkckhNR",
     "title": "Lena",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Lena"
   },
   {
     "id": 483,
     "imageUrl": "https://drive.google.com/open?id=12R0CD6O4QCjh6jCzYKyPLfKbFvVx7vpB",
     "title": "Lena",
-    "description": "Dear Jose,",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Lena"
   },
   {
     "id": 485,
     "imageUrl": "https://drive.google.com/open?id=1GAyIweOTYhCJaHOsu5BaLS7oQ1jFWRMw",
     "title": "Lena",
-    "description": "You're my mirror. Love you bro x",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Lena"
   },
   {
     "id": 487,
     "imageUrl": "https://drive.google.com/open?id=1U1OmEHSf4UdI1omJ25Nn3DHYpCPHbIwc",
     "title": "Lore",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
     "contributor": "Lore"
   },
   {
     "id": 489,
     "imageUrl": "https://drive.google.com/open?id=13UBk_Uj-B1WThtFcySsAaAFt1Fd3EUiV",
     "title": "Lore",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
     "contributor": "Lore"
   },
   {
     "id": 491,
     "imageUrl": "https://drive.google.com/open?id=1azrBqoSFS_HB5SWxZiV31OqCcYOdg49h",
     "title": "Lore",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Lore"
   },
   {
     "id": 493,
     "imageUrl": "https://drive.google.com/open?id=1QzQm5ajyFXVMrwEe1quPiQBD8z_0Q-dU",
     "title": "Lore",
-    "description": "Dearest José,",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Lore"
   },
   {
     "id": 495,
     "imageUrl": "https://drive.google.com/open?id=1edcK3Jpes6oDKoTeCGCeA0Ibw7vZ1QNZ",
     "title": "Marie Carrez",
-    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Marie Carrez"
   },
   {
     "id": 497,
     "imageUrl": "https://drive.google.com/open?id=1LEbJ_CmXyuoTBUWlfhflEx9__WQ2MRFT",
     "title": "Marie Carrez",
-    "description": "Jose,",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Marie Carrez"
   },
   {
     "id": 499,
     "imageUrl": "https://drive.google.com/open?id=1yt3oHbn5-yDWgNf--dg8gb5m_Gnaqx_Z",
     "title": "Marie Carrez",
-    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Marie Carrez"
   },
   {
     "id": 501,
     "imageUrl": "https://drive.google.com/open?id=1oZhsJqdZl8RfETJYjzfhun47nov9Cfl9",
     "title": "Marie Carrez",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "Jose,",
     "contributor": "Marie Carrez"
   },
   {
     "id": 503,
     "imageUrl": "and I always will. But I’ll carry you in my heart forever.",
     "title": "I miss you deeply",
-    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
+    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
     "contributor": "I miss you deeply"
   },
   {
     "id": 505,
     "imageUrl": "https://drive.google.com/open?id=11pSj0bs_AizURDz9D0ZPqjN_lHD8wTnL",
     "title": "Margaux Mielcarek",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 507,
     "imageUrl": "https://drive.google.com/open?id=1bVubkUa0RVjsPL6I9Mv3jqfCm_BmQsnI",
     "title": "Margaux Mielcarek",
-    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
+    "description": "José,",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 509,
     "imageUrl": "https://drive.google.com/open?id=19rcj0t1nS39dvXErt8FGihvQsyh73PCZ",
     "title": "Margaux Mielcarek",
-    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 511,
     "imageUrl": "https://drive.google.com/open?id=1yDRN595jCUX09KpR5BXuSPLES7FhUGvC",
     "title": "Margaux Mielcarek",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "My Rufus,",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 513,
     "imageUrl": "https://drive.google.com/open?id=1gY8VR6-tXtxOoIGhXZuN-uZsRL9K_kDz",
     "title": "Margaux Mielcarek",
-    "description": "José,",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 515,
     "imageUrl": "https://drive.google.com/open?id=1rr-fJR5_RpSfgCrHNGXUSvb8s-xu5bSc",
     "title": "Margaux Mielcarek",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 517,
     "imageUrl": "https://drive.google.com/open?id=1vQsumSW6HJYD7AqzdWnCra4gL51eGVMv",
     "title": "Margaux Mielcarek",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 519,
     "imageUrl": "https://drive.google.com/open?id=1EtuY5iyi2Ya3ozhRFZQNdTDCTRKCsiV2",
     "title": "Margaux Mielcarek",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 521,
     "imageUrl": "https://drive.google.com/open?id=1pDABlSOAHSyzS-FYbwIc6ow5mYqjyoXG",
     "title": "Margaux Mielcarek",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
     "contributor": "Margaux Mielcarek"
   },
   {
     "id": 523,
     "imageUrl": "https://drive.google.com/open?id=1MZt5GRAMjo4R4t5vJpHp_6z17G4Z0wTH",
     "title": "Maria Moraru Fielding",
-    "description": "Dear Jose,",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Maria Moraru Fielding"
   },
   {
     "id": 525,
     "imageUrl": "https://drive.google.com/open?id=1PeVu4OYsFWoC8u-1EoWy--U_tWxS9zOd",
     "title": "Maria Moraru Fielding",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
     "contributor": "Maria Moraru Fielding"
   },
   {
     "id": 527,
     "imageUrl": "https://drive.google.com/open?id=18IUZMcsOpgvjyhOeXoKdL9htzKtxcR_p",
     "title": "Maria Moraru Fielding",
-    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
+    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
     "contributor": "Maria Moraru Fielding"
   },
   {
     "id": 529,
     "imageUrl": "https://drive.google.com/open?id=1-FHB2W_u1BGENtlC6fTPZaq9lh137NTX",
     "title": "Maria Moraru Fielding",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Maria Moraru Fielding"
   },
   {
@@ -2463,140 +2463,140 @@ const sampleMemories: MemoryData[] = [
     "id": 533,
     "imageUrl": "https://drive.google.com/open?id=1hxyxIJG-fqJvBtrgjVuNq_tH3UYUuyoC",
     "title": "Natasha Jain",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Natasha Jain"
   },
   {
     "id": 535,
     "imageUrl": "https://drive.google.com/open?id=1a8rxXx-dm3LBPsJbSlh1UGtXOGLtXvss",
     "title": "Natasha Jain",
-    "description": "Few people you meet have a charm that brings people together in the way José did.",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Natasha Jain"
   },
   {
     "id": 537,
     "imageUrl": "https://drive.google.com/open?id=1tIk4UdlOTpmMKD1u1R5DnKF6Zn7jIXWq",
     "title": "Natasha Jain",
-    "description": "Here’s to you, Jose",
+    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
     "contributor": "Natasha Jain"
   },
   {
     "id": 539,
     "imageUrl": "https://drive.google.com/open?id=1ABM_CEUHTdWzsQo22zFP_CDki_n5k2zq",
     "title": "Orla O’Halloran",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
     "contributor": "Orla O’Halloran"
   },
   {
     "id": 541,
     "imageUrl": "https://drive.google.com/open?id=1xKI3B1WwweM97Dk0JqJEEHZmQesuq2p5",
     "title": "Orla O’Halloran",
-    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Orla O’Halloran"
   },
   {
     "id": 543,
     "imageUrl": "https://drive.google.com/open?id=1i3FBafCHBHbFpvg7NaXCp2ENAk5-b478",
     "title": "Orla O’Halloran",
-    "description": "You're my mirror. Love you bro x",
+    "description": "Jose,",
     "contributor": "Orla O’Halloran"
   },
   {
     "id": 545,
     "imageUrl": "https://drive.google.com/open?id=15VDQvFL8Eun-GpxEuWVkII-4yN4iRmWD",
     "title": "Orla O’Halloran",
-    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Orla O’Halloran"
   },
   {
     "id": 547,
     "imageUrl": "inteligencia y talento en los estudios.",
     "title": "Fuiste un pilar en el gran grupo que formamos durante nuestro primer año. Y en seguida pudimos ver que tu alegría y espontaneidad iba acompañada de generosidad",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
     "contributor": "Fuiste un pilar en el gran grupo que formamos durante nuestro primer año. Y en seguida pudimos ver que tu alegría y espontaneidad iba acompañada de generosidad"
   },
   {
     "id": 549,
     "imageUrl": "https://drive.google.com/open?id=1uWTBB_frquw5YC5FAY0a-WD6ExZHFTvF",
     "title": "Olmo",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "José,",
     "contributor": "Olmo"
   },
   {
     "id": 551,
     "imageUrl": "https://drive.google.com/open?id=1smyaHOMvuMR4rsBg4Vn-uXxo2q47XzB2",
     "title": "Olmo",
-    "description": "My Rufus,",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Olmo"
   },
   {
     "id": 553,
     "imageUrl": "https://drive.google.com/open?id=1R4o_man0fNWrBuXLTpkXwPCsFyqkOIgz",
     "title": "Olmo",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Olmo"
   },
   {
     "id": 555,
     "imageUrl": "https://drive.google.com/open?id=1hKusXZBq5F678ue74f9fS7uQUqxGly-B",
     "title": "Olmo",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
     "contributor": "Olmo"
   },
   {
     "id": 557,
     "imageUrl": "they truly missed someone extraordinary.",
     "title": "You were so loved by everyone lucky enough to know you - and for those who didn’t",
-    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "You were so loved by everyone lucky enough to know you - and for those who didn’t"
   },
   {
     "id": 559,
     "imageUrl": "https://drive.google.com/open?id=1vxYDTgAGAH3omNK92lprdBGA7XwvQAN8",
     "title": "Parit & Mayuri",
-    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
+    "description": "Dearest José,",
     "contributor": "Parit & Mayuri"
   },
   {
     "id": 561,
     "imageUrl": "https://drive.google.com/open?id=1kiN_LAUVzYbxB9vyXd3uq3X5IjINzgR7",
     "title": "Parit & Mayuri",
-    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Parit & Mayuri"
   },
   {
     "id": 563,
     "imageUrl": "https://drive.google.com/open?id=1a8dn0OgTbV85_p6JA7ArsO4fD5uUQQY3",
     "title": "Parit & Mayuri",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Parit & Mayuri"
   },
   {
     "id": 565,
     "imageUrl": "https://drive.google.com/open?id=1sV3Hu78PfHOEM64s4-M8iDOCeSUNgBzL",
     "title": "Parit & Mayuri",
-    "description": "Dear Jose,",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "Parit & Mayuri"
   },
   {
     "id": 567,
     "imageUrl": "https://drive.google.com/open?id=1sHweEybNbge8R-2m2P61tEq3Jgfy2o0c",
     "title": "Parit & Mayuri",
-    "description": "Dearest José,",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Parit & Mayuri"
   },
   {
     "id": 569,
     "imageUrl": "https://drive.google.com/open?id=1kSknA7xf0Hc50yxKs2khYTTHc651qZkv",
     "title": "Parit & Mayuri",
-    "description": "I remember : We were 16 in the jamming room - John’s home. I didn't know how to say fruty or what’s this nickname meamns, so I improvised and invented the nickname cookie... and it stays forever.. “cookinou” we will miss you ❤️",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "Parit & Mayuri"
   },
   {
     "id": 571,
     "imageUrl": "https://drive.google.com/open?id=1PBCcHGSaPnT4U7ItnSUNBHYMY0RUiqEK",
     "title": "Parit & Mayuri",
-    "description": "Jose,",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "Parit & Mayuri"
   },
   {
@@ -2610,217 +2610,217 @@ const sampleMemories: MemoryData[] = [
     "id": 575,
     "imageUrl": "sé que sigues brillando — porque tú siempre serás la luz para todos los que tuvimos la suerte de conocerte.",
     "title": "Donde estés",
-    "description": "Here’s to you, Jose",
+    "description": "Jose,",
     "contributor": "Donde estés"
   },
   {
     "id": 577,
     "imageUrl": "https://drive.google.com/open?id=1wg1s5IbBPv6ZuCGOnEJU5u2W8uUyYqI5",
     "title": "Paula Pupi",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "I knew José from the European School. We weren't close, but I remember him well. Most of all, I remember the moment I realized how brilliant he was: it was a normal morning in the school’s cafeteria, and while my friends and I were queuing to buy a couque au chocolat, José was organizing a fundraiser for an NGO where he planned to volunteer during the summer. I remember thinking to myself how exceptional that was and have admired him since then.  His charisma and boldness were already inspiring then, when we were but teenagers, and I am sure he has inspired many more since then. My thoughts go out to his family and friends. Isadora",
     "contributor": "Paula Pupi"
   },
   {
     "id": 579,
     "imageUrl": "https://drive.google.com/open?id=1olw0cXKTt9NOF28UWtiia-14iAQPaof0",
     "title": "Paula Pupi",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
     "contributor": "Paula Pupi"
   },
   {
     "id": 581,
     "imageUrl": "https://drive.google.com/open?id=1pFkGVPxtHWoRHlkfFma7w817v1IdVFPj",
     "title": "Paula Pupi",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "Dear Jose,",
     "contributor": "Paula Pupi"
   },
   {
     "id": 583,
     "imageUrl": "https://drive.google.com/open?id=1Cyf1upuiGAsFRlcCpVgBAgWtsMp0guzm",
     "title": "Paula Pupi",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "My Rufus,",
     "contributor": "Paula Pupi"
   },
   {
     "id": 585,
     "imageUrl": "https://drive.google.com/open?id=11lBa1UyZTMJF7vxEXlfEnSwpO0sY6h_P",
     "title": "Rada Youssef",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Rada Youssef"
   },
   {
     "id": 587,
     "imageUrl": "https://drive.google.com/open?id=1SZRRraFR5iXuQqKh870P7_qx10k5Zski",
     "title": "Rada Youssef",
-    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
+    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
     "contributor": "Rada Youssef"
   },
   {
     "id": 589,
     "imageUrl": "https://drive.google.com/open?id=1Vgcdhq5I0bmKUArFY6QgqHZQzc0Fi_B9",
     "title": "Rada Youssef",
-    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "Rada Youssef"
   },
   {
     "id": 591,
     "imageUrl": "https://drive.google.com/open?id=1YVl5HQ8iKHddS1Mwn11ite4QYoMXNmYS",
     "title": "Rada Youssef",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "Dearest José,",
     "contributor": "Rada Youssef"
   },
   {
     "id": 593,
     "imageUrl": "https://drive.google.com/open?id=1h1PfYfqxoAZcWNwpJF0hekBPiNLquCn2",
     "title": "Rad Rychtera",
-    "description": "José,",
+    "description": "José and I met in the French class of Madame Dezy in 98’ or 99 and were desk mates for a good 5 or 6 years. Immediately he decided we were to get married and started calling me moglieeeeee with the biggest smile...at 10 or 11 yo. I went along, as I was instantly drawn to him, his charm was disarming and his light so bright, he naturally made you feel at ease and was your biggest supporter no matter what. From then on, we called each other marito e moglie and shared so much affection, banter, laughs until the bac. He always supported me when I needed it, listened to me for hours in avenue château de Walzin.",
     "contributor": "Rad Rychtera"
   },
   {
     "id": 595,
     "imageUrl": "https://drive.google.com/open?id=19a25U8hwOozs5Q1aO4b8qiEueWQkcjOq",
     "title": "Saruchi",
-    "description": "When I came to the European School in primary school, having moved from Devon in England in a whirlwind, I felt completely out of place. To me, the school seemed humongous; Brussels seemed even bigger. The whole thing was overwhelming. I felt so nervous walking into that classroom of strangers; I knew that I wasn't good at making friends.",
+    "description": "Here’s to you, Jose",
     "contributor": "Saruchi"
   },
   {
     "id": 597,
     "imageUrl": "https://drive.google.com/open?id=1A3jW7LzRNVDYEdnzOr-6W8_V19ILzf_T",
     "title": "Saruchi",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "Saruchi"
   },
   {
     "id": 599,
     "imageUrl": "https://drive.google.com/open?id=1UaCpE-DOTBy1357HpyQMdoZsSH6h5Nep",
     "title": "Saruchi",
-    "description": "Here’s to you, Jose",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "Saruchi"
   },
   {
     "id": 601,
     "imageUrl": "https://drive.google.com/open?id=1-5XAKdg4QaqGFUI72qPMfXJun8oxEH1L",
     "title": "Saruchi",
-    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "Saruchi"
   },
   {
     "id": 603,
     "imageUrl": "https://drive.google.com/open?id=1M9K9chRR72est_s4nNlwWuB16FAq4ogx",
     "title": "Shammi",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "Jose,",
     "contributor": "Shammi"
   },
   {
     "id": 605,
     "imageUrl": "https://drive.google.com/open?id=1BHREW0zCrH8XSGQeqkt9dIjxaDJpS1qT",
     "title": "Shammi",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
     "contributor": "Shammi"
   },
   {
     "id": 607,
     "imageUrl": "https://drive.google.com/open?id=1FGg-qYcVm-IakmwzA4QO3m3kSSIb14-R",
     "title": "Shammi",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
     "contributor": "Shammi"
   },
   {
     "id": 609,
     "imageUrl": "https://drive.google.com/open?id=1zKaJfGis8xBLY_uxaS8bs8Y9peaR-YhL",
     "title": "Shammi",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
     "contributor": "Shammi"
   },
   {
     "id": 611,
     "imageUrl": "c’était lors de mon anniversaire en 2005 avant mon départ pour la Colombie.",
     "title": "La dernière fois que je l’ai vu",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "La dernière fois que je l’ai vu"
   },
   {
     "id": 613,
     "imageUrl": "nous nous sommes perdus de vue.. je le regrette car j’ai toujours apprécié les moments passés en sa compagnie.",
     "title": "Malheureusement après cela",
-    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
+    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
     "contributor": "Malheureusement après cela"
   },
   {
     "id": 615,
     "imageUrl": "https://drive.google.com/open?id=1JsOOmrdChOjlObauYqYnj90g_h2TtjbK",
     "title": "Gabriel Solyst",
-    "description": "Here’s to you, Jose",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "Gabriel Solyst"
   },
   {
     "id": 617,
     "imageUrl": "https://drive.google.com/open?id=1JsOOmrdChOjlObauYqYnj90g_h2TtjbK",
     "title": "Gabriel Solyst",
-    "description": "Dearest José,",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "Gabriel Solyst"
   },
   {
     "id": 619,
     "imageUrl": "you took everything out of it.",
     "title": "You Lived life",
-    "description": "Mon Fruity… puis Cookie… puis notre fameux surnom : xoooooow.",
+    "description": "José was one of the most outgoing, friendly, hard working, driven and ambitious people I had the pleasure of growing up with and of knowing. It’s heartbreaking to know of the pain he was going through behind that kind, brave face we knew and loved. His energy and positivity lifted everywhere he graced and everyone he met. We are lucky to have known him and to have had him in our lives. I hope his family and those closest to him can find some solace from knowing how many people José touched and inspired. You will be sorely missed. Rest in peace brother",
     "contributor": "You Lived life"
   },
   {
     "id": 621,
     "imageUrl": "in thoughts and memory.",
     "title": "As I will hold you dear",
-    "description": "Fruity, my friend. I always thought you were chasing something and it pains me that I never understood that in reality you were running. I still can't fathom that this happened and I wish I had understood your sufferings better so I could have been there for you more. I hope you have found peace and that you're as well surrounded now as you were throughout your amazing life. I'll never forget the times we spent together. Love you forever, rest well. ..Tom Berg",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "As I will hold you dear"
   },
   {
     "id": 623,
     "imageUrl": "https://drive.google.com/open?id=15n9mK91skW9Nf9EeDamsba9a7so94kBX",
     "title": "Suzanne van Ballekom",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "Few people you meet have a charm that brings people together in the way José did.",
     "contributor": "Suzanne van Ballekom"
   },
   {
     "id": 625,
     "imageUrl": "https://drive.google.com/open?id=1XZpHl1yq8wrPA5XTWBcbsIQDZntakznP",
     "title": "Suzanne van Ballekom",
-    "description": "Jose,",
+    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
     "contributor": "Suzanne van Ballekom"
   },
   {
     "id": 627,
     "imageUrl": "meme si aujourd’hui c’est en petit étoile que tu brilles 🌟",
     "title": "Tu étais aimé par tellement d’entre nous et tu resteras dans nos souvenirs comme un rayon de soleil incroyable",
-    "description": "I always thought of José as the cool kid—always surrounded by friends, always laughing, effortlessly fitting in with the older crowd at school. But behind that easy charm was someone incredibly dedicated and driven. He was a top student, and I remember when he self-imposed a friendly competition over our grades. I relished those moments when I’d score just one percent higher! And yet he was never too proud to ask for help with tricky math homework.",
+    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
     "contributor": "Tu étais aimé par tellement d’entre nous et tu resteras dans nos souvenirs comme un rayon de soleil incroyable"
   },
   {
     "id": 629,
     "imageUrl": "Repose en paix Quicky,memory",
     "title": "Ps: les gens apparaissent et disparaissent de nos vies mais toi tu nous a marqué…. J’aurais jamais imaginé qu’après 20 ans tu m’aurais autant fait pleurer 🥲💋 Avec tout mon amour",
-    "description": "Dearest José,",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Ps: les gens apparaissent et disparaissent de nos vies mais toi tu nous a marqué…. J’aurais jamais imaginé qu’après 20 ans tu m’aurais autant fait pleurer 🥲💋 Avec tout mon amour"
   },
   {
     "id": 631,
     "imageUrl": "https://drive.google.com/open?id=1Q9d0fVLzTECdatQcjlzgujef2qYo0c7T",
     "title": "Thomas Lee (Burny)",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "Dearest Jose, you brought me so much joy during our time at Warwick. You were always the life of the party, always ready for a good time and always pure and kind. I will miss hearing your stories in New York and your hilarious trump impressions. You will always be with us in spirit. Rest in power my dear friend. God bless your family and may they find the strength and power to get through this.",
     "contributor": "Thomas Lee (Burny)"
   },
   {
     "id": 633,
     "imageUrl": "https://drive.google.com/open?id=18xMWJgGcRpAM8FlqLGQ9T0pA51O___Rx",
     "title": "Thomas Lee (Burny)",
-    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Thomas Lee (Burny)"
   },
   {
     "id": 635,
     "imageUrl": "https://drive.google.com/open?id=1butqCVpopMMFcKEQJvvddvZ-KNCshc-A",
     "title": "Thomas Lee (Burny)",
-    "description": "Dear Jose,",
+    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
     "contributor": "Thomas Lee (Burny)"
   },
   {
@@ -2834,168 +2834,168 @@ const sampleMemories: MemoryData[] = [
     "id": 639,
     "imageUrl": "nous nous sommes perdus de vue.",
     "title": "Quickie",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
     "contributor": "Quickie"
   },
   {
     "id": 641,
     "imageUrl": "with that perma-smile of yours?",
     "title": "I mean…how could I",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "I mean…how could I"
   },
   {
     "id": 643,
     "imageUrl": "mec.",
     "title": "Merci pour ta lumière",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
     "contributor": "Merci pour ta lumière"
   },
   {
     "id": 645,
     "imageUrl": "most of us will never understand it.",
     "title": "To the one who carried a weight so heavy",
-    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
+    "description": "José,",
     "contributor": "To the one who carried a weight so heavy"
   },
   {
     "id": 647,
     "imageUrl": "but we know how much it cost you.",
     "title": "You made it look light",
-    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
+    "description": "Here’s to you, Jose",
     "contributor": "You made it look light"
   },
   {
     "id": 649,
     "imageUrl": "like they mattered.",
     "title": "You had a way of making everyone feel heard",
-    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
+    "description": "Jose,",
     "contributor": "You had a way of making everyone feel heard"
   },
   {
     "id": 651,
     "imageUrl": "without hesitation.",
     "title": "And you gave your love just as freely",
-    "description": "We kept our friendship protected, just for us. These past days, I called your number many times. You didn’t pick up, you didn’t call back. It hurts more than I could have ever imagined.",
+    "description": "Dearest José,",
     "contributor": "And you gave your love just as freely"
   },
   {
     "id": 653,
     "imageUrl": "https://drive.google.com/open?id=1AAHl9fvLVgqWMqvZT76jberIy59TH0Fj",
     "title": "Tessa Butler",
-    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "Tessa Butler"
   },
   {
     "id": 655,
     "imageUrl": "https://drive.google.com/open?id=1JX46hITN17EW4nTf4dXRVYdRYwVB-8ra",
     "title": "Tessa Butler",
-    "description": "Here’s to you, Jose",
+    "description": "Jose was a sensitive soul and a very brave, brilliant young man. Our sometimes abrupt world can be too much for sensitive empaths…",
     "contributor": "Tessa Butler"
   },
   {
     "id": 657,
     "imageUrl": "https://drive.google.com/open?id=1p3l8Q1CHrT4yRx-e2yCLkq853GKNcwIr",
     "title": "Vishaal Virani",
-    "description": "José (Cookies) was always the one with biggest smile in the room. He also had catchphrases for every situations and could always makes us laugh. He was trully a good guy and good friend. I have only great memories of him. He will be dearly missed. I hope you are at peace now. Miss you.",
+    "description": "My friend, we had so many shared moments, like hanging out and trips and school. There was philosophy class for example & u were brilliant at discussing different theories, and you had answers and perspectives that were both meaningful and smart. You were charming and brought such a good vibe, and we would hype each other up walking into the room like that cool fun confident voice “Yooo!” — with endless laughter. But you were also so intellectual.",
     "contributor": "Vishaal Virani"
   },
   {
     "id": 659,
     "imageUrl": "https://drive.google.com/open?id=1WXmZDXBld9gMEBq8gtrLL7UU9Dx_YUmO",
     "title": "Vishaal Virani",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "Dear Jose,",
     "contributor": "Vishaal Virani"
   },
   {
     "id": 661,
     "imageUrl": "Shammi and I would study for exams together in the library?",
     "title": "It’s been too many years since I’ve seen you. I will always look back on our time together at Warwick with affection. Is it weird that my favourite memories of you are when you",
-    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
+    "description": "Dearest José,",
     "contributor": "It’s been too many years since I’ve seen you. I will always look back on our time together at Warwick with affection. Is it weird that my favourite memories of you are when you"
   },
   {
     "id": 663,
     "imageUrl": "I hope you are at peace now.",
     "title": "I wish I could have told you all this. Goodbye José",
-    "description": "What a terrible loss- you were a good human, handsome, exceptionally smart- basically everything a mother and friend could ask for. There are many things that can never be explained in this life, but hope you are at peace. You will never be forgotten and your contribution to humanity, especially in conflict zones will live on.",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "I wish I could have told you all this. Goodbye José"
   },
   {
     "id": 665,
     "imageUrl": "Shammi y yo estudiábamos juntos para los exámenes en la biblioteca?",
     "title": "Han pasado demasiados años desde la última vez que te vi. Siempre recordaré con cariño nuestro tiempo juntos en Warwick. ¿Es raro que mis recuerdos favoritos de ti sean cuando tú",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "Jose,",
     "contributor": "Han pasado demasiados años desde la última vez que te vi. Siempre recordaré con cariño nuestro tiempo juntos en Warwick. ¿Es raro que mis recuerdos favoritos de ti sean cuando tú"
   },
   {
     "id": 667,
     "imageUrl": "espero que ahora estés en paz.",
     "title": "Ojalá pudiera contarte todo esto. Adiós José",
-    "description": "Dear José, you were funny, bright, warm, and so smart. I remember one day you spoke about ‘us Africans’ and I said, José, do you think of yourself as African? And you laughed and said, yes, I’m from the Canaries, I’m from Africa. It was a joy to work with you, it felt more like being in school together than being in a serious institution. So much love, Florence",
+    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
     "contributor": "Ojalá pudiera contarte todo esto. Adiós José"
   },
   {
     "id": 669,
     "imageUrl": "only to end up bored and pissed right after). Your big smiles always contained a lot of things.",
     "title": "You are a person of brilliantly open mind. You had no patience for hypocrisy (though you knew how to play the game",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "José,",
     "contributor": "You are a person of brilliantly open mind. You had no patience for hypocrisy (though you knew how to play the game"
   },
   {
     "id": 671,
     "imageUrl": "part of the friend group.",
     "title": "You’re part of the memories we shared",
-    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
+    "description": "Loved and respected by everyone, Jose would light up everywhere he went with his charm, compassion, intelligence and humour. A testament of his positive character and success, he would often go out of his way for others, genuinely caring and knowing how to bring the best out of people, without expecting anything in return.",
     "contributor": "You’re part of the memories we shared"
   },
   {
     "id": 673,
     "imageUrl": "you were forever be loved and missed.",
     "title": "May your beautiful soul finally rest in peace my brother",
-    "description": "Il y a des visages qu’on n’oublie pas. Malgré la distance, le temps qui passe et les aléas du quotidien.",
+    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
     "contributor": "May your beautiful soul finally rest in peace my brother"
   },
   {
     "id": 675,
     "imageUrl": "cherished and respected by so many around the world. The 100+ notes in this book are just a tiny peek into all the lives Jose touched and the monumental love we all had for him. We truly hope this book helps shine a light on the wonderful memories and the incredible impact Jose had on everyone.",
     "title": "To the Luengo-Cabrera family: words cannot describe the pain and suffering you must be going through. You should have immense pride in knowing that you created and raised an an incredible son that was deeply loved",
-    "description": "It’s striking how quickly the years go by and one day, you realize how much you’ve missed old friends and conversations which just fizzled out as the day to day took over.. I’m grateful for the realization and filled with sadness that it came with this news and the inability to talk to you old friend..",
+    "description": "You're my mirror. Love you bro x",
     "contributor": "To the Luengo-Cabrera family: words cannot describe the pain and suffering you must be going through. You should have immense pride in knowing that you created and raised an an incredible son that was deeply loved"
   },
   {
     "id": 677,
     "imageUrl": "life of the party guy many of us knew with what has happened.",
     "title": "It’s really difficult to assimilate the happy go lucky",
-    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
+    "description": "I have such fond and vivid memories of our time together at university. You were so full of warmth and energy, with that big, unforgettable smile that always brightened my day. I admired your curiosity, your kindness, and your deep commitment to making the world a better place — a commitment you truly lived by. Although we didn’t keep closely in touch after university, you will always hold a special place in my heart. I feel so lucky to have shared that time with you.",
     "contributor": "It’s really difficult to assimilate the happy go lucky"
   },
   {
     "id": 679,
     "imageUrl": "most of us will never understand it.",
     "title": "To the one who carried a weight so heavy",
-    "description": "José was such a wonderful friend and person. Anytime I saw him - I knew we were going to have a nice time together. I remember at school him always being such a bright and charismatic student who had a deep effect on those around him. I missed José when he wasn’t around as he had such a positive aura that was infectious and generous. People were drawn to him. I will miss him even more now - but in the knowledge that he had such a huge impact on those who knew him. Love, Colin.",
+    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
     "contributor": "To the one who carried a weight so heavy"
   },
   {
     "id": 681,
     "imageUrl": "but we know how much it cost you.",
     "title": "You made it look light",
-    "description": "Même si je ne le connassais pas intimement, José avait l'aura de quelqu'un de bien. Mes interactions avec lui n'ont été qu'éclats de rires et camaraderie. Son sourire et sa bonne humeur étaient une petite touche de lumière qui rendait l'école plus agréable.",
+    "description": "Jose my brother, you had a true heart of gold. You walked into rooms and lit them up. You always stayed true to yourself, showed relentless empathy and shined your warm energy on every person single you met.",
     "contributor": "You made it look light"
   },
   {
     "id": 683,
     "imageUrl": "like they mattered.",
     "title": "You had a way of making everyone feel heard",
-    "description": "Caro José, sono passati quasi vent’anni da quando ti ho visto l’ultima volta, ma seguivo i tuoi viaggi e il tuo lavoro tramite i vari social. La notizia mi ha colto davvero di sorpresa e lasciato un segno profondo. Ti ricordo e ricorderò sempre come quel ragazzo che sorrideva sempre quando eravamo in classe con Giovanni a Bruxelles. Riposa in pace, un abbraccio affettuoso ai tuoi cari.",
+    "description": "Jose was a kind, compassionate, fun person. He had a fierce intellect and cared immensely about the well being of others. We had some wonderful moments at university, and he was a great friend to me - my time at Warwick was richer as a result of his friendship. He met my children in January, and left a huge impression on them - playing with them on the beach, and chasing them around the pool. They talked about him for months afterwards. I am still struggling to process what has happened. It has made me more determined to check in on friends who I think may be struggling. Jose was a wonderful person who left a positive imprint on the world.",
     "contributor": "You had a way of making everyone feel heard"
   },
   {
     "id": 685,
     "imageUrl": "without hesitation.",
     "title": "And you gave your love just as freely",
-    "description": "Dear José, I can't believe you are gone. When I think of you I see your big smile, laughter and those amazing hugs you would give. You were such a kind soul with a big heart. You showed so much care and love for others, and you managed to touch so many people during your too short life. I admired your drive, passion and dedication for social justice and for achieving your goals in life. I am forever grateful for the special moments we had together both at the European school in Brussels, at Warwick uni and in London. You were so much fun and such a wonderful friend, a great entertainer and dancer, and so intelligent and hard working all at the same time. I remember the fundraisers you succesfully organised both at the European school and at Warwick University for different social causes to support children and young people living in situations of poverty and hardship. You made this place a better world in so many ways, and it is a big loss for humanity to no longer have you with us. Will try my best to keep your spirit alive. Thank you for everything you gave me and all of us. My deepest condolences to your family and friends. Love, Marie",
+    "description": "I met Fruity in Brussels. He was part of the European boys crew, and we were the International School kids. He was always the quiet, more reserved one in the gang. Later, we both moved to Paris, and that’s when I really got to know him. Fruity would always call himself my African brother. He was so sharp, so straightforward, and I absolutely loved his accent.",
     "contributor": "And you gave your love just as freely"
   }
 ]
