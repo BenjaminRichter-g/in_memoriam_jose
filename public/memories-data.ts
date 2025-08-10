@@ -14,7 +14,7 @@ interface TextMemory {
   type: 'quote' | 'story' | 'message' | 'poem'
 }
 
-// Generated from CSV - 2025-07-21T22:12:34.123Z
+// Generated from CSV - 2025-08-10T11:38:35.277Z
 const sampleMemories: MemoryData[] = [
   {
     "id": 1,
